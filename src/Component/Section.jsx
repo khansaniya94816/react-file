@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../assest/Group 33.png";
 import logo from "../assest/Group 32.png";
-import mmk from "../assest/Group 35.png";
+import Image from "../assest/Group 35.png";
 import image from "../assest/Group 36.png";
 
 function Section() {
@@ -22,7 +22,7 @@ function Section() {
       <div className="flex flex-wrap justify-center md:justify-between gap-4 mt-8 p-8 md:p-0">
         <img src={img} alt="Service 1" className="w-[150px] md:w-[200px] h-auto" />
         <img src={logo} alt="Service 2" className="w-[150px] md:w-[200px] h-auto" />
-        <img src={mmk} alt="Service 3" className="w-[150px] md:w-[200px] h-auto" />
+        <img src={Image} alt="Service 3" className="w-[150px] md:w-[200px] h-auto" />
         <img src={image} alt="Service 4" className="w-[150px] md:w-[200px] h-auto" />
       </div>
     </main>

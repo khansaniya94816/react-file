@@ -3,7 +3,7 @@ import image from "../assest/image 5.png";
 
 function Homepage() {
   return (
-    <section className="bg-[#F5F5F5] rounded-[45px] p-8 lg:p-12">
+    <section className="bg-[white] rounded-[45px] p-8 lg:p-12">
       <div className="mb-6">
         <h1
           className="text-[36px] lg:text-[64px] leading-tight lg:w-[500px]"
@@ -22,7 +22,7 @@ function Homepage() {
           />
         </div>
 
-        <div className="bg-[#F5F5F5] p-6 rounded-[20px] text-black shadow-md w-full lg:w-[400px] lg:h-auto">
+        <div className=" p-6 rounded-[20px] text-black  w-full lg:w-[400px] lg:h-auto">
           <p className="text-base lg:text-lg leading-relaxed">
             Altitude Charter offers 37 years of charter experience. We have
             procured everything from 6-passenger turboprops to 300-passenger
